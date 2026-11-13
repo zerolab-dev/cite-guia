@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b3763">
-  <meta name="description" content="CITEguía - Orientación tecnológica para productores y empresarios.">
+  <meta name="description"
+        content="CITEguía - Orientación tecnológica para productores y empresarios.">
 
   <title>CITEguía | Orientación tecnológica</title>
 
@@ -14,7 +15,6 @@
 <body>
   <main class="shell">
 
-    <!-- Panel lateral -->
     <aside class="sidebar">
 
       <div class="brand">
@@ -43,7 +43,6 @@
 
     </aside>
 
-    <!-- Interfaz de conversación -->
     <section class="chat" aria-label="Chatbot CITEguía">
 
       <header class="chat-head">
@@ -64,7 +63,6 @@
 
       </header>
 
-      <!-- Mensajes -->
       <div
         class="messages"
         id="messages"
@@ -73,7 +71,6 @@
         aria-relevant="additions">
       </div>
 
-      <!-- Entrada de texto -->
       <div class="composer">
 
         <form id="inputForm">
@@ -88,8 +85,7 @@
             autocomplete="off"
             placeholder="Escribe tu necesidad productiva..."
             maxlength="500"
-            required
-          >
+            required>
 
           <button
             id="sendBtn"
@@ -106,7 +102,6 @@
 
   </main>
 
-  <script src="js/chatbot.js" defer></script>
-
+  <script src="js/chatbot.js?v=0.2.1" defer></script>
 </body>
 </html>
