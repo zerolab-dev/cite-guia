@@ -1,0 +1,31 @@
+{
+  "version":"0.1.0",
+  "notice":"Demostración con rutas predefinidas. Las recomendaciones no sustituyen una evaluación técnica ni confirman disponibilidad del CITE.",
+  "scenarios":[
+    {
+      "id":"queso","title":"Conservación de quesos","sector":"Agroindustrial · Lácteos","region":"Arequipa","cite":"CITEagroindustrial Majes","service":"Asistencia técnica","serviceDescription":"Orientación preliminar para revisar el proceso de elaboración, higiene, envasado y conservación del queso. Podrían requerirse ensayos según evaluación especializada.","keywords":["queso","quesos","lacteo","lacteos","leche","conservacion","vida util","malogra","deteriora","moho"],
+      "questions":[{"text":"¿Qué producto elabora principalmente?","options":["Queso fresco","Queso madurado","Ambos tipos"]},{"text":"¿Cuál es la principal dificultad que observa?","options":["Se deteriora rápidamente","Presenta cambios de olor o sabor","Aparecen cambios de color o moho"]},{"text":"¿Cómo conserva actualmente el producto?","options":["Refrigeración continua","Refrigeración intermitente","Temperatura ambiente"]},{"text":"¿Qué desea mejorar primero?","options":["Vida útil y conservación","Proceso de elaboración","Calidad e inocuidad"]}],
+      "summary":"Mejorar la conservación y calidad de quesos elaborados en Arequipa.","pageUrl":null
+    },
+    {
+      "id":"madera","title":"Aprovechamiento de residuos de madera","sector":"Madera y forestal","region":"Loreto","cite":"CITEforestal Maynas","service":"Desarrollo de productos","serviceDescription":"Explorar alternativas técnicas para valorizar recortes, aserrín y virutas mediante el diseño y desarrollo de nuevos productos, sujeto a evaluación de viabilidad.","keywords":["madera","aserrin","viruta","carpinteria","forestal","residuo","residuos","retazos","recortes","reaprovechar"],
+      "questions":[{"text":"¿Qué residuos genera principalmente?","options":["Aserrín y virutas","Recortes y retazos","Una mezcla de ambos"]},{"text":"¿De dónde provienen esos residuos?","options":["Aserradero","Carpintería o taller","Fabricación de muebles"]},{"text":"¿Qué le interesa desarrollar?","options":["Tableros o piezas compuestas","Artículos utilitarios o decorativos","Quiero explorar alternativas"]},{"text":"¿Cuál es su prioridad?","options":["Reducir desperdicios","Crear un producto comercializable","Mejorar el aprovechamiento de materia prima"]}],
+      "summary":"Valorizar residuos del procesamiento de madera en Loreto.","pageUrl":null
+    },
+    {
+      "id":"paiche","title":"Productos y subproductos de paiche","sector":"Acuícola y pesquera","region":"San Martín","cite":"CITEproductivo San Martín","service":"Desarrollo de productos","serviceDescription":"Explorar formulaciones y procesos para generar productos con valor agregado a partir de paiche y aprovechar subproductos, con evaluación técnica y sanitaria previa.","keywords":["paiche","pez","peces","pescado","pescados","acuicola","acuicultura","pesquera","filete","subproducto","amazonic"],
+      "questions":[{"text":"¿Qué actividad realiza con el paiche?","options":["Crianza y comercialización","Fileteado o procesamiento","Comercialización de pescado fresco"]},{"text":"¿Qué parte desea aprovechar mejor?","options":["Carne o filetes","Piel y otras partes","Todo el pescado"]},{"text":"¿Qué producto le interesa explorar?","options":["Productos alimenticios procesados","Aprovechamiento de subproductos","Todavía no tengo una idea definida"]},{"text":"¿Cuál es su objetivo principal?","options":["Agregar valor comercial","Reducir mermas","Diversificar la oferta"]}],
+      "summary":"Desarrollar productos y aprovechar subproductos del paiche en San Martín.","pageUrl":null
+    },
+    {
+      "id":"curtiembre","title":"Mejora del proceso de curtiembre","sector":"Cuero y calzado","region":"La Libertad","cite":"CITEcuero y calzado Trujillo","service":"Asistencia técnica","serviceDescription":"Revisar técnicamente etapas del curtido, control de proceso y calidad del cuero para identificar oportunidades de mejora. El manejo de insumos y efluentes requiere evaluación especializada.","keywords":["cuero","curtiembre","curtido","curtir","piel","pieles","teneria","calzado","acabado cuero"],
+      "questions":[{"text":"¿En qué etapa presenta mayores dificultades?","options":["Preparación de pieles","Curtido","Acabado del cuero"]},{"text":"¿Qué problema observa con más frecuencia?","options":["Calidad irregular","Defectos superficiales","Alto consumo de insumos"]},{"text":"¿Qué necesita mejorar?","options":["Control del proceso","Calidad del producto final","Eficiencia de producción"]},{"text":"¿Qué tipo de apoyo busca?","options":["Evaluación técnica del proceso","Recomendaciones de mejora","Orientación para estandarizar operaciones"]}],
+      "summary":"Mejorar el proceso de curtiembre y la calidad del cuero en La Libertad.","pageUrl":null
+    },
+    {
+      "id":"textil","title":"Desarrollo de tejidos de camélidos","sector":"Textil camélidos y confecciones","region":"Cusco","cite":"CITEtextil camélidos Cusco","service":"Desarrollo de productos","serviceDescription":"Orientación para explorar nuevos tejidos, estructuras y acabados utilizando fibras de camélidos, de acuerdo con la viabilidad y capacidades técnicas disponibles.","keywords":["alpaca","camélido","camelido","fibra","fibras","textil","tejido","tejidos","telar","confeccion","lana","prenda"],
+      "questions":[{"text":"¿Qué fibra utiliza principalmente?","options":["Alpaca","Llama","Mezclas de fibras"]},{"text":"¿Qué producto elabora?","options":["Tejidos en telar","Prendas de vestir","Accesorios textiles"]},{"text":"¿Qué desea desarrollar?","options":["Nuevas texturas o estructuras","Nuevos diseños de tejidos","Mejores acabados"]},{"text":"¿Qué objetivo tiene?","options":["Diversificar productos","Mejorar calidad y presentación","Llegar a nuevos mercados"]}],
+      "summary":"Desarrollar tejidos con fibras de camélidos en Cusco.","pageUrl":null
+    }
+  ]
+}
