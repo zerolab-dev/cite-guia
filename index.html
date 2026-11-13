@@ -1,11 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#0b3763">
   <meta name="description" content="CITEguía - Orientación tecnológica para productores y empresarios.">
+
   <title>CITEguía | Orientación tecnológica</title>
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -24,6 +26,7 @@
 
       <div class="side-content">
         <h2>Tu necesidad, nuestra orientación.</h2>
+
         <p>
           Cuéntanos qué quieres mejorar en tu actividad
           productiva. Te ayudaremos a identificar una
@@ -31,16 +34,20 @@
         </p>
       </div>
 
-      <button class="reset-side" id="resetSide" type="button">
+      <button
+        class="reset-side"
+        id="resetSide"
+        type="button">
         ↻ Nueva conversación
       </button>
 
     </aside>
 
-    <!-- Ventana del chatbot -->
+    <!-- Interfaz de conversación -->
     <section class="chat" aria-label="Chatbot CITEguía">
 
       <header class="chat-head">
+
         <div class="avatar">✦</div>
 
         <div>
@@ -54,9 +61,10 @@
           title="Reiniciar conversación">
           ↻ Reiniciar
         </button>
+
       </header>
 
-      <!-- Conversación -->
+      <!-- Mensajes -->
       <div
         class="messages"
         id="messages"
@@ -65,21 +73,23 @@
         aria-relevant="additions">
       </div>
 
-      <!-- Entrada del usuario -->
+      <!-- Entrada de texto -->
       <div class="composer">
 
-        <div id="choices" class="choices"></div>
-
         <form id="inputForm">
+
           <label class="sr-only" for="messageInput">
-            Describe tu necesidad
+            Escribe tu mensaje
           </label>
 
           <input
             id="messageInput"
+            type="text"
             autocomplete="off"
             placeholder="Escribe tu necesidad productiva..."
-            maxlength="500">
+            maxlength="500"
+            required
+          >
 
           <button
             id="sendBtn"
@@ -87,13 +97,16 @@
             aria-label="Enviar mensaje">
             ➤
           </button>
+
         </form>
 
       </div>
+
     </section>
 
   </main>
 
   <script src="js/chatbot.js" defer></script>
+
 </body>
 </html>
