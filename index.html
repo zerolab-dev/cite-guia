@@ -1,3 +1,99 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b3763"><meta name="description" content="CITEguía: demostración de orientación tecnológica para productores y empresarios."><title>CITEguía | Orientación tecnológica</title><link rel="stylesheet" href="css/style.css"></head>
-<body><main class="shell"><aside class="sidebar"><div class="brand"><div class="logo">C<span>+</span></div><div><h1>CITEguía</h1><p>Orientación tecnológica</p></div></div><div class="side-content"><span class="eyebrow">PROTOTIPO v0.1</span><h2>Tu necesidad, nuestra orientación.</h2><p>Cuéntanos qué quieres mejorar en tu actividad productiva. Te mostraremos una ruta de orientación de ejemplo.</p><div class="stat"><strong>5</strong><span>casos demostrativos</span></div><div class="side-note">Esta experiencia usa respuestas y recomendaciones predefinidas. No es una evaluación técnica oficial.</div></div><button class="reset-side" id="resetSide" type="button">↻ Nueva conversación</button></aside><section class="chat" aria-label="Chatbot CITEguía"><header class="chat-head"><div class="avatar">✦</div><div><strong>Asistente CITEguía</strong><small><span class="dot"></span> Simulación interactiva</small></div><button class="head-reset" id="resetTop" type="button" title="Reiniciar conversación">↻ Reiniciar</button></header><div class="messages" id="messages" role="log" aria-live="polite" aria-relevant="additions"></div><div class="composer"><div id="choices" class="choices"></div><form id="inputForm"><label class="sr-only" for="messageInput">Describe tu necesidad</label><input id="messageInput" autocomplete="off" placeholder="Escribe tu necesidad productiva..." maxlength="500"><button id="sendBtn" type="submit" aria-label="Enviar mensaje">➤</button></form><p>Demostración CITEguía · Sin inteligencia artificial · Sin almacenamiento de conversaciones</p></div></section></main><script src="js/chatbot.js" defer></script></body></html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b3763">
+  <meta name="description" content="CITEguía - Orientación tecnológica para productores y empresarios.">
+  <title>CITEguía | Orientación tecnológica</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main class="shell">
+
+    <!-- Panel lateral -->
+    <aside class="sidebar">
+
+      <div class="brand">
+        <div>
+          <h1>CITEguía</h1>
+          <p>Orientación tecnológica</p>
+        </div>
+      </div>
+
+      <div class="side-content">
+        <h2>Tu necesidad, nuestra orientación.</h2>
+        <p>
+          Cuéntanos qué quieres mejorar en tu actividad
+          productiva. Te ayudaremos a identificar una
+          ruta de orientación tecnológica.
+        </p>
+      </div>
+
+      <button class="reset-side" id="resetSide" type="button">
+        ↻ Nueva conversación
+      </button>
+
+    </aside>
+
+    <!-- Ventana del chatbot -->
+    <section class="chat" aria-label="Chatbot CITEguía">
+
+      <header class="chat-head">
+        <div class="avatar">✦</div>
+
+        <div>
+          <strong>Asistente CITEguía</strong>
+        </div>
+
+        <button
+          class="head-reset"
+          id="resetTop"
+          type="button"
+          title="Reiniciar conversación">
+          ↻ Reiniciar
+        </button>
+      </header>
+
+      <!-- Conversación -->
+      <div
+        class="messages"
+        id="messages"
+        role="log"
+        aria-live="polite"
+        aria-relevant="additions">
+      </div>
+
+      <!-- Entrada del usuario -->
+      <div class="composer">
+
+        <div id="choices" class="choices"></div>
+
+        <form id="inputForm">
+          <label class="sr-only" for="messageInput">
+            Describe tu necesidad
+          </label>
+
+          <input
+            id="messageInput"
+            autocomplete="off"
+            placeholder="Escribe tu necesidad productiva..."
+            maxlength="500">
+
+          <button
+            id="sendBtn"
+            type="submit"
+            aria-label="Enviar mensaje">
+            ➤
+          </button>
+        </form>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="js/chatbot.js" defer></script>
+</body>
+</html>
