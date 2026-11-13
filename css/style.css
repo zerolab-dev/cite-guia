@@ -23,3 +23,10 @@
         gap: 0;
     }
 }
+
+/* Ocultar botón de casos de ejemplo */
+#showExamples,
+#examplesBtn,
+.examples-button {
+    display: none !important;
+}
